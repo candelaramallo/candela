@@ -1,12 +1,16 @@
-a = input ("ingrese valor") 
-b = input ("ingresa segundo valor")
-if a<b:
-    print ("el primer valor es mayor")
+#  while condicion = True flase:
     
-elif a>b:
-    print ("el segundo valor es mayor") 
-
-elif a==b:
-    print ("los valores son iguales")
-    
-reversed: (" dar vuelta los valores de a y b")
+contraseña="ucagirls"
+entrada=""
+intentos=0
+ 
+ while entrada! = contraseña and intentos < 3:
+     entrada=input("ingrese su contraseña:")
+     if entrada != contraseña: 
+         print("incorrecta-siga participando:")
+         intentos +=1 
+    if entrada == contraseña: 
+        print("correcto!!!")
+        else:
+            print("no hay mas intentos.")
+     
